@@ -13,6 +13,7 @@ alist  （固件内置版本是旧版，如有需要可先卸载旧版，并不�
 istore （固件已编译istore所需依赖，自行安装）
 
 软件源推荐:https://dl.openwrt.ai/23.05/packages/aarch64_cortex-a53/kiddin9/ （安装或升级后注释掉并更新列表，以免错乱）
+opkg.conf注释：#option check_signature
 
 编译说明:
 在Run workflow时，如需cd openwrt && make menuconfig 调整配置请输入true，输入false则跳过配置步骤，直接按照.config文件里的配置进行编译。
