@@ -28,7 +28,6 @@ env:
   CONFIG_FILE: hanwckf/CMCC-RAX3000M-EMMC/.config
   DIY_P1_SH: hanwckf/CMCC-RAX3000M-EMMC/diy-part1.sh
   DIY_P2_SH: hanwckf/CMCC-RAX3000M-EMMC/diy-part2.sh
-  CLASH_CORE: hanwckf/CMCC-RAX3000M-EMMC/preset-clash-core.sh
   SSH_ACTIONS: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
