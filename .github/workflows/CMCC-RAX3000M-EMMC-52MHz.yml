@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 ###############改名字##############
-name: CMCC-RAX3000M-EMMC-52MHz-hanwckf
+name: CMCC-RAX3000M-EMMC-52MHz-build-immortalwrt
 
 on:
   repository_dispatch:
@@ -37,7 +37,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     
     steps:
     - name: 检查项目分支
