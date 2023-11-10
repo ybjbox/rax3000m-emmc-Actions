@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 ###############改名字##############
-name: CMCC-RAX3000M-EMMC-26MHz-hanwckf
+name: CMCC-RAX3000M-EMMC-26MHz-build-kiddin9
 
 on:
   repository_dispatch:
@@ -22,8 +22,8 @@ on:
 #    - cron: 0 16 * * *
 
 env:
-  REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
-  REPO_BRANCH: openwrt-21.02
+  REPO_URL: https://github.com/kiddin9/OpenWrt_x86-r2s-r4s-r5s-N1
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: hanwckf/CMCC-RAX3000M-EMMC/.config
   DIY_P1_SH: hanwckf/CMCC-RAX3000M-EMMC/diy-part1.sh
@@ -37,7 +37,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: Ubuntu-22.04
     
     steps:
     - name: 检查项目分支
