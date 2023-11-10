@@ -17,3 +17,7 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git istore https://github.com/linkease/istore;main' >>feeds.conf.default
+src-git-full packages https://github.com/immortalwrt/packages.git;openwrt-21.02
+src-git luci https://github.com/openwrt/luci.git;openwrt-23.05
+src-git-full routing https://github.com/openwrt/routing.git;openwrt-21.02
+src-git kiddin9 https://github.com/kiddin9/openwrt-packages.git;master
