@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 ###############改名字##############
-name: CMCC-RAX3000M-EMMC-26MHz-hanwckf
+name: CMCC-RAX3000M-EMMC-26MHz-build-immortalwrt
 
 on:
   repository_dispatch:
@@ -33,11 +33,11 @@ env:
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
   ###############改名字##############
-  OPENWRT_NAME: hanwckf-26MHz
+  OPENWRT_NAME: immortalwrt-26MHz
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     
     steps:
     - name: 检查项目分支
